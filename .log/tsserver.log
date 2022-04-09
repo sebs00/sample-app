@@ -1,79 +1,52 @@
-Info 0    [21:01:08.095] Starting TS Server
-Info 1    [21:01:08.095] Version: 4.6.3
-Info 2    [21:01:08.095] Arguments: /usr/bin/node /home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/ss/Projects/ruby-on-rails/environment/sample_app/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/39eac710904cac4012e54d185fdc9da2/tscancellation*
-Info 3    [21:01:08.095] Platform: linux NodeVersion: 17 CaseSensitive: true
-Info 4    [21:01:08.095] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [21:01:08.108] Format host information updated
-Info 6    [21:01:08.123] Search path: /home/ss/Projects/ruby-on-rails/environment/sample_app/app/javascript/packs
-Info 7    [21:01:08.124] For info: /home/ss/Projects/ruby-on-rails/environment/sample_app/app/javascript/packs/application.js :: No config files found.
-Info 8    [21:01:08.127] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 9    [21:01:09.212] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1084.7098880000412ms
-Info 10   [21:01:09.212] Project '/dev/null/inferredProject1*' (Inferred)
-Info 11   [21:01:09.213] 	Files (118)
+Info 0    [15:26:29.276] Starting TS Server
+Info 1    [15:26:29.276] Version: 4.6.3
+Info 2    [15:26:29.276] Arguments: /usr/bin/node /home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/ss/Projects/ruby-on-rails/environment/sample_app/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/10cfe619a63a34d07b613e844aeed0b4/tscancellation*
+Info 3    [15:26:29.276] Platform: linux NodeVersion: 17 CaseSensitive: true
+Info 4    [15:26:29.276] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [15:26:29.287] Format host information updated
+Info 6    [15:26:29.303] Search path: /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack
+Info 7    [15:26:29.304] For info: /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/environment.js :: No config files found.
+Info 8    [15:26:29.308] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [15:26:30.656] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1347.7018579989672ms
+Info 10   [15:26:30.656] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [15:26:30.656] 	Files (207)
 
-Info 12   [21:01:09.213] -----------------------------------------------
-Info 13   [21:01:09.223] AutoImportProviderProject: found 6 root files in 6 dependencies in 8.585077997297049 ms
-Info 14   [21:01:09.224] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 15   [21:01:10.159] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 934.5779320001602ms
-Info 16   [21:01:10.159] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 17   [21:01:10.159] 	Files (355)
+Info 12   [15:26:30.656] -----------------------------------------------
+Info 13   [15:26:30.679] AutoImportProviderProject: found 7 root files in 7 dependencies in 20.23321800120175 ms
+Info 14   [15:26:30.680] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [15:26:31.006] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 325.7880300004035ms
+Info 16   [15:26:31.006] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [15:26:31.006] 	Files (177)
 
-Info 18   [21:01:10.159] -----------------------------------------------
-Info 19   [21:01:12.373] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 20   [21:01:12.463] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 90.27359800040722ms
-Info 21   [21:01:12.463] Project '/dev/null/inferredProject1*' (Inferred)
-Info 22   [21:01:12.463] 	Files (129)
+Info 18   [15:26:31.006] -----------------------------------------------
+Info 19   [15:26:36.902] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [15:26:37.438] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 535.9863159991801ms
+Info 21   [15:26:37.438] Project '/dev/null/inferredProject1*' (Inferred)
+Info 22   [15:26:37.438] 	Files (161)
 
-Info 23   [21:01:12.463] -----------------------------------------------
-Info 24   [21:01:12.464] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 25   [21:01:12.464] 	Files (355)
+Info 23   [15:26:37.438] -----------------------------------------------
+Info 24   [15:26:37.438] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 25   [15:26:37.438] 	Files (177)
 
-Info 26   [21:01:12.464] -----------------------------------------------
-Info 27   [21:01:12.729] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 28   [21:01:12.780] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 51.41185200214386ms
-Info 29   [21:01:12.780] Project '/dev/null/inferredProject1*' (Inferred)
-Info 30   [21:01:12.780] 	Files (129)
+Info 26   [15:26:37.438] -----------------------------------------------
+Info 27   [15:26:37.576] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 28   [15:26:37.621] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 44.56910499930382ms
+Info 29   [15:26:37.621] Project '/dev/null/inferredProject1*' (Inferred)
+Info 30   [15:26:37.621] 	Files (155)
 
-Info 31   [21:01:12.780] -----------------------------------------------
-Info 32   [21:01:12.780] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 33   [21:01:12.781] 	Files (355)
+Info 31   [15:26:37.621] -----------------------------------------------
+Info 32   [15:26:37.621] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 33   [15:26:37.621] 	Files (177)
 
-Info 34   [21:01:12.781] -----------------------------------------------
-Info 35   [21:01:13.938] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 36   [21:01:14.008] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: true structureIsReused:: SafeModules Elapsed: 69.82291200011969ms
-Info 37   [21:01:14.008] Project '/dev/null/inferredProject1*' (Inferred)
-Info 38   [21:01:14.008] 	Files (143)
-
-Info 39   [21:01:14.008] -----------------------------------------------
-Info 40   [21:01:14.008] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 41   [21:01:14.008] 	Files (355)
-
-Info 42   [21:01:14.008] -----------------------------------------------
-Info 43   [21:01:15.070] Before ensureProjectForOpenFiles:
-Info 44   [21:01:15.070] After ensureProjectForOpenFiles:
-Info 45   [21:01:15.070] got projects updated in background, updating diagnostics for /home/ss/Projects/ruby-on-rails/environment/sample_app/app/javascript/packs/application.js
-Info 46   [21:01:15.633] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 47   [21:01:15.909] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: true structureIsReused:: Not Elapsed: 276.15007799863815ms
-Info 48   [21:01:15.909] Project '/dev/null/inferredProject1*' (Inferred)
-Info 49   [21:01:15.909] 	Files (167)
-
-Info 50   [21:01:15.909] -----------------------------------------------
-Info 51   [21:01:15.909] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 52   [21:01:15.909] 	Files (355)
-
-Info 53   [21:01:15.909] -----------------------------------------------
-Info 54   [21:01:15.913] DirectoryWatcher:: Triggered with /home/ss/.cache/typescript/4.6/node_modules :: WatchInfo: /home/ss/.cache/typescript/4.6/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 55   [21:01:15.913] Elapsed:: 0.11559699848294258ms DirectoryWatcher:: Triggered with /home/ss/.cache/typescript/4.6/node_modules :: WatchInfo: /home/ss/.cache/typescript/4.6/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 56   [21:01:16.268] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 57   [21:01:16.358] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: true structureIsReused:: Not Elapsed: 89.68637299910188ms
-Info 58   [21:01:16.358] Project '/dev/null/inferredProject1*' (Inferred)
-Info 59   [21:01:16.358] 	Files (167)
-
-Info 60   [21:01:16.358] -----------------------------------------------
-Info 61   [21:01:16.358] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 62   [21:01:16.358] 	Files (355)
-
-Info 63   [21:01:16.358] -----------------------------------------------
-Info 64   [21:01:18.769] Before ensureProjectForOpenFiles:
-Info 65   [21:01:18.769] After ensureProjectForOpenFiles:
-Info 66   [21:01:18.770] got projects updated in background, updating diagnostics for /home/ss/Projects/ruby-on-rails/environment/sample_app/app/javascript/packs/application.js
+Info 34   [15:26:37.621] -----------------------------------------------
+Info 35   [15:26:40.077] Before ensureProjectForOpenFiles:
+Info 36   [15:26:40.078] After ensureProjectForOpenFiles:
+Info 37   [15:26:40.078] got projects updated in background, updating diagnostics for /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/environment.js
+Info 38   [15:27:07.811] Format host information updated
+Info 39   [15:27:09.496] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 40   [15:27:09.524] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 28.29661799967289ms
+Info 41   [15:27:09.524] Different program with same set of files
+Info 42   [15:27:10.986] Format host information updated
+Info 43   [15:27:16.873] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 44   [15:27:16.881] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 8.637540999799967ms
+Info 45   [15:27:16.881] Different program with same set of files
