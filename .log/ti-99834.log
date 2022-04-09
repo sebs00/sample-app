@@ -1,0 +1,60 @@
+[16:17:51.069] Global cache location '/home/ss/.cache/typescript/4.6', safe file path '/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[16:17:51.070] Processing cache location '/home/ss/.cache/typescript/4.6'
+[16:17:51.070] Trying to find '/home/ss/.cache/typescript/4.6/package.json'...
+[16:17:51.071] Loaded content of '/home/ss/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.587"},"devDependencies":{"@types/bootstrap":"^5.1.9","@types/case-sensitive-paths-webpack-plugin":"^2.1.6","@types/enhanced-resolve":"^3.0.7","@types/glob":"^7.2.0","@types/jquery":"^3.5.14","@types/js-yaml":"^4.0.5","@types/json-parse-better-errors":"^1.0.0","@types/memory-fs":"^0.3.3","@types/micromatch":"^4.0.2","@types/mkdirp":"^1.0.2","@types/rails__activestorage":"^7.0.1","@types/rails__ujs":"^6.0.1","@types/tapable":"^2.2.2","@types/turbolinks":"^5.2.0","@types/webpack":"^5.28.0","@types/webpack-assets-manifest":"^5.1.0","@types/webpack-sources":"^3.2.0"}}
+[16:17:51.071] Loaded content of '/home/ss/.cache/typescript/4.6/package-lock.json'
+[16:17:51.079] Adding entry into typings cache: 'bootstrap' => '/home/ss/.cache/typescript/4.6/node_modules/@types/bootstrap/index.d.ts'
+[16:17:51.080] Adding entry into typings cache: 'case-sensitive-paths-webpack-plugin' => '/home/ss/.cache/typescript/4.6/node_modules/@types/case-sensitive-paths-webpack-plugin/index.d.ts'
+[16:17:51.082] Adding entry into typings cache: 'enhanced-resolve' => '/home/ss/.cache/typescript/4.6/node_modules/enhanced-resolve/types.d.ts'
+[16:17:51.083] Adding entry into typings cache: 'glob' => '/home/ss/.cache/typescript/4.6/node_modules/@types/glob/index.d.ts'
+[16:17:51.085] Adding entry into typings cache: 'jquery' => '/home/ss/.cache/typescript/4.6/node_modules/@types/jquery/index.d.ts'
+[16:17:51.086] Adding entry into typings cache: 'js-yaml' => '/home/ss/.cache/typescript/4.6/node_modules/@types/js-yaml/index.d.ts'
+[16:17:51.088] Adding entry into typings cache: 'json-parse-better-errors' => '/home/ss/.cache/typescript/4.6/node_modules/@types/json-parse-better-errors/index.d.ts'
+[16:17:51.089] Adding entry into typings cache: 'memory-fs' => '/home/ss/.cache/typescript/4.6/node_modules/@types/memory-fs/index.d.ts'
+[16:17:51.089] Adding entry into typings cache: 'micromatch' => '/home/ss/.cache/typescript/4.6/node_modules/@types/micromatch/index.d.ts'
+[16:17:51.090] Adding entry into typings cache: 'mkdirp' => '/home/ss/.cache/typescript/4.6/node_modules/@types/mkdirp/index.d.ts'
+[16:17:51.091] Adding entry into typings cache: 'rails__activestorage' => '/home/ss/.cache/typescript/4.6/node_modules/@types/rails__activestorage/index.d.ts'
+[16:17:51.092] Adding entry into typings cache: 'rails__ujs' => '/home/ss/.cache/typescript/4.6/node_modules/@types/rails__ujs/index.d.ts'
+[16:17:51.092] Adding entry into typings cache: 'tapable' => '/home/ss/.cache/typescript/4.6/node_modules/tapable/tapable.d.ts'
+[16:17:51.093] Adding entry into typings cache: 'turbolinks' => '/home/ss/.cache/typescript/4.6/node_modules/@types/turbolinks/index.d.ts'
+[16:17:51.095] Adding entry into typings cache: 'webpack' => '/home/ss/.cache/typescript/4.6/node_modules/webpack/types.d.ts'
+[16:17:51.096] Adding entry into typings cache: 'webpack-assets-manifest' => '/home/ss/.cache/typescript/4.6/node_modules/@types/webpack-assets-manifest/index.d.ts'
+[16:17:51.098] Adding entry into typings cache: 'webpack-sources' => '/home/ss/.cache/typescript/4.6/node_modules/@types/webpack-sources/index.d.ts'
+[16:17:51.098] Finished processing cache location '/home/ss/.cache/typescript/4.6'
+[16:17:51.099] Process id: 99841
+[16:17:51.099] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[16:17:51.099] validateDefaultNpmLocation: false
+[16:17:51.099] Npm config file: /home/ss/.cache/typescript/4.6/package.json
+[16:17:51.099] Updating types-registry npm package...
+[16:17:51.099] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[16:17:53.503]     Succeeded. stdout:
+    
+    up to date, audited 105 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[16:17:53.503] Updated types-registry npm package
+[16:17:53.528] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/environment.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin"],"projectRootPath":"/home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack","kind":"discover"}
+[16:17:53.535] Loaded safelist from types map file '/home/ss/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[16:17:53.535] Explicitly included types: []
+[16:17:53.536] Inferred typings from unresolved imports: ["@rails/webpacker","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin"]
+[16:17:53.536] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/bower_components","/home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/node_modules"]}
+[16:17:53.536] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/bower_components","/home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/node_modules"]}
+[16:17:53.536] DirectoryWatcher:: Added:: WatchInfo: /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/bower_components
+[16:17:53.537] DirectoryWatcher:: Added:: WatchInfo: /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:17:53.538] Elapsed:: 1.099261000752449ms DirectoryWatcher:: Added:: WatchInfo: /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:17:53.538] DirectoryWatcher:: Added:: WatchInfo: /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/node_modules
+[16:17:53.538] DirectoryWatcher:: Added:: WatchInfo: /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:17:53.538] Elapsed:: 0.07503199949860573ms DirectoryWatcher:: Added:: WatchInfo: /home/ss/Projects/ruby-on-rails/environment/sample_app/config/webpack/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:17:53.538] Installing typings ["@rails/webpacker","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin"]
+[16:17:53.538] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[16:17:53.538] 'mini-css-extract-plugin':: Entry for package 'mini-css-extract-plugin' does not exist in local types registry - skipping...
+[16:17:53.538] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[16:17:53.538] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[16:17:53.538] All typings are known to be missing or invalid - no need to install more typings
+[16:17:53.538] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin"],"kind":"action::set"}
+[16:17:53.539] Response has been sent.
