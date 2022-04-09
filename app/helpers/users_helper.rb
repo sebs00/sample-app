@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Helps user controller
 module UsersHelper
   # Returns the Gravatar for the given user.
   def gravatar_for(user, size: 80)
