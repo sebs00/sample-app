@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Application test case
 require "test_helper"
 
 class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
