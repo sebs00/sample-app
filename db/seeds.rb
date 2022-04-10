@@ -7,10 +7,11 @@
 # frozen_string_literal: true
 
 # Create a main sample user.
-User.create!(name: 'Example User',
-             email: 'example@railstutorial.org',
-             password: 'foobar',
-             password_confirmation: 'foobar')
+User.create!(name: 'asd',
+             email: 'asd@asd.d',
+             password: 'qwerty',
+             password_confirmation: 'qwerty',
+             admin: true)
 
 # Generate a bunch of additional users.
 99.times do |n|
