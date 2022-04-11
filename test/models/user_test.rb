@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # TEST HELPER
 require 'test_helper'
 
@@ -17,7 +19,8 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test 'email should not be too long' do
-    @user.email = 'a' * 244 + '@lolololoexample.com'
+    many_a = 'a' * 244
+    @user.email = "#{many_a}@lolololoexample.com"
     assert_not @user.valid?
   end
 
