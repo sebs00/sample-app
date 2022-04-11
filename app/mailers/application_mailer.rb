@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# empty lol
+# base mailer
 class ApplicationMailer < ActionMailer::Base
-  default from: 'from@example.com'
+  default from: 'noreply@sebs-rails.com'
   layout 'mailer'
 end
