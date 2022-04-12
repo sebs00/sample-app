@@ -73,13 +73,14 @@ Rails.application.configure do
   host = 'sebs-house-of-rails.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-        :address => 'smtp.gmail.com',
-        :port => 587,
-        :domain => 'heroku.com',
-        :user_name => ENV['GMAIL_USER'],
-        :password => ENV['GMAIL_PASS'],
-        :authentication => 'plain',
-        :enable_starttls_auto => true }
+    address: 'smtp.gmail.com',
+    port: 587,
+    domain: 'heroku.com',
+    user_name: ENV['GMAIL_USER'],
+    password: ENV['GMAIL_PASS'],
+    authentication: 'plain',
+    enable_starttls_auto: true
+  }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
